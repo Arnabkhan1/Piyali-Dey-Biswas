@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* body{
+  background: rgb(22,22,24);
+background: linear-gradient(90deg, rgba(22,22,24,1) 4%, rgba(117,117,117,1) 36%, rgba(129,129,129,1) 50%, rgba(118,118,119,1) 63%, rgba(10,10,10,1) 100%, rgba(0,212,255,1) 100%);
+} */
+@media screen and (min-width:991px) and (max-width:2560px){
+
+  body{
+  background: rgb(22,22,24);
+   background: linear-gradient(90deg, rgba(22,22,24,1) 4%, rgba(117,117,117,1) 36%, rgba(129,129,129,1) 50%, rgba(118,118,119,1) 63%, rgba(10,10,10,1) 100%, rgba(0,212,255,1) 100%);
+   font-family: 'Tiro Bangla', serif;
+}
+/* body{
+  background: linear-gradient(to bottom, rgb(218, 218, 218), white);
+  color: white;
+} */
+  .loader{
+height: 100%;
+width: 100%;
+position: fixed;
+top: 0;
+background-color: black;
+z-index: 99;
+display: flex;
+align-items: center;
+justify-content:center;
+color: #fff;
+gap:2vw;
+
+}
+.leftsection{
+  padding: 1em 3em 0;
+  font-weight: 500;
+  font-size:2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  color:#fdfdfa;
+  position: absolute;
+  top: 25vh;
+  left: 0;
+  z-index: 9;
+  margin-right: 40vw;
+}
+
+/* Animation */
+
+ .navbar-nav{
+  display: flex;
+  gap:3vw;
+  margin-left:16vw;
+ }
+ .navbar-brand{
+  padding-left: 5vw;
+ }
+ .col-sm-6{
+  display: none;
+ }
+ .para-img-flex{
+  display: flex;
+  gap:5vw;
+ }
+ .para-img-flex img{
+        width: 50vw;
+        height:90vh;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border-bottom-right-radius: 60%;
+        border-bottom-left-radius: 60%;
+
+ }
+  .para-img-flex p{
+  padding-top: 15vh;
+  font-size: 1.25rem;
+  text-align: justify;
+  color: white;
+ }
+ .img-text-first{
+  display: flex;
+  gap:5vw;
+ 
+ }
+ .img-text-first h1{
+    padding-top: 15vh;
+    color: white;
+    position: absolute;
+    right:30vw;
+    font-size: 2.15rem;
+    top: 107vh;
+  }
+  .img-text-first h2{
+    padding-top:22vh;
+    color: white;
+    position: absolute;
+    right: 13.5vw;
+    font-size: 2rem;
+    top: 107vh;
+  }
+ 
+  .img-text-first img{
+    width: 34vw;
+    height: 60vh;
+    margin-top: 90vh;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: all 0.5s ease-in-out;
+  }
+  .img-text-first img:hover {
+    scale:1.1;
+}
+  .img-text-second{
+  display: flex;
+  gap:5vw;
+  /* background-color: red; */
+ }
+ .img-text-second h1{
+    padding-top:34vh;
+    color: white;
+    position: absolute;
+    left: 6vw;
+    font-size: 2.55rem;
+    top: 157vh;
+  }
+ 
+  .img-text-second img{
+    width: 34vw;
+    height: 60vh;
+    margin-top:5vh;
+    margin-left: 50vw;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: all 0.5s ease-in-out;
+  }
+  .img-text-second img:hover {
+    scale:1.1;
+}
+  .img-text-third{
+  display: flex;
+  gap:5vw;
+  /* background-color: red; */
+ }
+ .img-text-third h1{
+    padding-top:41vh;
+    color: white;
+    position: absolute;
+    right:11vw;
+    font-size: 2.55rem;
+    top: 220vh;
+  }
+  .img-text-third img{
+    width: 34vw;
+    height: 60vh;
+    margin-top:8vh;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: all 0.5s ease-in-out;
+    /* margin-left: 50vw; */
+  }
+  .img-text-third img:hover {
+    scale:1.1;
+}
+  footer {
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  margin-top: 30vh;
+  margin-bottom: 2vh;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+}
+@media screen and (max-width:575px){
+  body{
+    background: rgb(22,22,24);
+background: linear-gradient(90deg, rgba(22,22,24,1) 0%, rgba(92,131,116,1) 0%, rgba(129,129,129,1) 30%, rgba(133,133,133,1) 84%, rgba(102,134,134,1) 100%, rgba(10,10,10,1) 100%);
+font-family: 'Tiro Bangla', serif;
+  }
+  .col-lg-4{
+    display: none;
+  }
+  .col-md-6{
+        display: none;
+  }
+  .loader{
+height: 100%;
+width: 100%;
+position: fixed;
+top: 0;
+background-color: black;
+z-index: 99;
+display: flex;
+align-items: center;
+justify-content:center;
+color: #fff;
+gap:2vw;
+
+}
+.leftsection{
+  padding:26vh 0 0 5vw;
+  font-weight: 100;
+  font-size:1.15rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  color:#fdfdfa;
+   position:absolute;
+   z-index: 9; 
+ 
+  
+  /* margin-right: 40vw; */
+}
+.row button{
+width: 30vw;
+height:7vh;
+border-radius: 25px;
+position: absolute;
+top: 45vh;
+left:60vw;
+}
+ 
+  .row img{
+        width: 75vw;
+        position: absolute;
+        top: 2vh;
+        z-index: -9;
+      
+        
+  }
+  .img-text-first h1{
+    padding-top:10vh;
+    color: white;
+    position: absolute;
+    right:30vw;
+    font-size:1.55rem;
+    top:82vh;
+  }
+  .img-text-first h2{
+    padding-top:14vh;
+    color: white;
+    position: absolute;
+    /* right:4vw; */
+    left: 12vw;
+    font-size: 1.40rem;
+    top: 84vh;
+  }
+ 
+  .img-text-first img{
+    width: 90vw;
+    height: 30vh;
+    margin-top:57vh;
+    border-radius: 20%;
+    border: 2px solid white;
+    transition: all 0.5s ease-in-out;
+    margin-left:2vw;
+  }
+  .img-text-second h1{
+    padding-top:5vh;
+    color: white;
+    position: absolute;
+    left: 12vw;
+    font-size:1.55rem;
+    top: 135vh;
+  }
+ 
+  .img-text-second img{
+    width:90vw;
+    height: 30vh;
+    margin-top:103vh;
+    margin-left:2vw;
+    border-radius: 20%;
+    border: 2px solid white;
+    transition: all 0.5s ease-in-out;
+  }
+  .img-text-third h1{
+   margin-top:172vh;
+   margin-left: 5vw;
+    color: white;
+    position: absolute;
+    right:11vw;
+    font-size: 1.55rem;
+    /* top: 220vh; */
+    
+  }
+  .img-text-third img{
+    width:90vw;
+    height: 30vh;
+    margin-top:146vh;
+    border-radius: 20%;
+    border: 2px solid white;
+    transition: all 0.5s ease-in-out;
+    margin-left:2.5vw;
+  }
+  footer {
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  margin-top: 179vh;
+  margin-bottom: 2vh;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+}
